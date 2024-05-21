@@ -1,508 +1,750 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="description"
-        content="Fostering Engagement in Technology-Mediated Stress Management: A Comparative Study of Biofeedback Designs">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Fostering Engagement in Technology-Mediated Stress Management: A Comparative Study of Biofeedback Designs</title>
+    <meta charset="utf-8">
+    <meta name="description"
+          content="Comparative Study of Visual Designs for Stress Management">
+    <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fostering Engagement in Technology-Mediated Stress Management: A Comparative Study of Biofeedback
+        Designs</title>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J23Z26SBHV"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J23Z26SBHV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-    gtag('js', new Date());
+        gtag('js', new Date());
 
-    gtag('config', 'G-J23Z26SBHV');
-  </script>
+        gtag('config', 'G-J23Z26SBHV');
+    </script>
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Noto+Sans|Roboto"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Noto+Sans|Roboto"
+          rel="stylesheet">
 
-  <link rel="stylesheet" href="./static/css/bootstrap.min.css">
-<!--  <link rel="stylesheet" href="./static/css/bulma.min.css">-->
-<!--  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">-->
-<!--  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">-->
-  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-<!--  <link rel="stylesheet"-->
-<!--        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">-->
-  <link rel="stylesheet" href="./static/css/main.css">
-  <link rel="icon" href="./static/images/favicon.ico">
+    <link rel="stylesheet" href="./static/css/bootstrap.min.css">
+    <!--  <link rel="stylesheet" href="./static/css/bulma.min.css">-->
+    <!--  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">-->
+    <!--  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">-->
+    <link rel="stylesheet" href="./static/assets/fontawesome/css/all.min.css">
+    <!--  <link rel="stylesheet"-->
+    <!--        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">-->
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="icon" href="./static/images/favicon.ico">
 
-<!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
-  <script defer src="./static/js/fontawesome.all.min.js"></script>
-  <script src="./static/js/bootstrap.min.js"></script>
-<!--  <script src="./static/js/bulma-slider.min.js"></script>-->
-<!--  <script src="./static/js/index.js"></script>-->
+    <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bootstrap.min.js"></script>
+    <!--  <script src="./static/js/bulma-slider.min.js"></script>-->
+    <!--  <script src="./static/js/index.js"></script>-->
 </head>
 <body>
 
 
 <div class="container">
-  <header class="sticky-top">
-    <div class="d-flex flex-column flex-md-row align-items-center mb-4 border-bottom">
-      <a href="https://zhdsun.github.io/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
-        <span class="home text-center py-3 mt-2 mt-md-0 ms-md-auto fs-4">Zhida Sun</span>
-      </a>
-      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-        <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">About</a>
-        <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#publication">Publication</a>
-        <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#talk">Talk</a>
-        <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#course">Course</a>
-        <a class="py-2 link-body-emphasis text-decoration-none" href="#misc">Misc</a>
-      </nav>
-    </div>
-  </header>
-
-  <div class="row">
-    <section class="py-5 text-center container">
-      <div class="row py-lg-5">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <h3 class="">Fostering Engagement in Technology-Mediated Stress Management: A Comparative Study of Biofeedback Designs</h3>
-          <div class="publication-authors">
-            <span class="author-block">
-              <a class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover" href="https://zhdsun.github.io/">Zhida Sun</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover" href="https://myweb.cuhk.edu.cn/reanimanuele">Manuele Reani</a><sup>2</sup>,</span>
-            <span class="author-block">
-              <a class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover" href="https://thinkavatar.github.io/">Quan Li</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover" href="https://www.cse.ust.hk/~mxj/">Xiaojuan Ma</a><sup>1</sup>.
-            </span>
-          </div>
-          <div class="publication-authors">
-            <span class="author-block"><sup>1</sup>The Hong Kong University of Science and Technology,</span>
-            <span class="author-block"><sup>2</sup>The Chinese University of Hong Kong, Shenzhen</span>
-          </div>
-<!--          <p class="lead text-body-secondary">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>-->
-          <p>
-            <a href="#" class="btn btn-secondary rounded-pill my-2">
-              <span class="icon">
-                      <i class="fab fa-file-alt"></i>
-                  </span>
-              <span>Paper</span></a>
-            <a href="#" class="btn btn-secondary rounded-pill my-2">
-              <span class="icon">
-                      <i class="fab fa-newspaper"></i>
-                  </span>
-              <span>Media Coverage</span></a>
-          </p>
+    <header class="sticky-top">
+        <div class="d-flex flex-column flex-md-row align-items-center mb-4 border-bottom">
+            <a href="https://zhdsun.github.io/"
+               class="d-flex align-items-center link-body-emphasis text-decoration-none">
+                <span class="text-center py-3 mt-2 mt-md-0 ms-md-auto fs-4"><i class="fa-solid fa-house"></i></span>
+            </a>
+            <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+                <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">About</a>
+                <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#abstract">Abstract</a>
+                <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#content">Content</a>
+                <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#cite">Cite</a>
+            </nav>
         </div>
-      </div>
-    </section>
-  </div>
+    </header>
+
+    <div class="row">
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <h3 class="">Fostering Engagement in Technology-Mediated Stress Management: A Comparative Study of
+                        Biofeedback Designs</h3>
+                    <div class="publication-authors">
+                        <span class="author-block">
+                            <a class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
+                               href="https://zhdsun.github.io/">Zhida Sun</a><sup>1</sup>,</span>
+                        <span class="author-block">
+                            <a class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
+                               href="https://myweb.cuhk.edu.cn/reanimanuele">Manuele Reani</a><sup>2</sup>,</span>
+                        <span class="author-block">
+                            <a class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
+                               href="https://thinkavatar.github.io/">Quan Li</a><sup>1</sup>,</span>
+                        <span class="author-block">
+                            <a class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
+                               href="https://www.cse.ust.hk/~mxj/">Xiaojuan Ma</a><sup>1</sup>.</span>
+                    </div>
+                    <div class="publication-authors">
+                        <span class="author-block"><sup>1</sup>The Hong Kong University of Science and Technology,</span>
+                        <span class="author-block"><sup>2</sup>The Chinese University of Hong Kong, Shenzhen</span>
+                    </div>
+                    <p>
+                        <a href="https://www.sciencedirect.com/science/article/pii/S1071581920300343"
+                           class="btn btn-outline-dark rounded-pill my-2">
+                            <span class="icon">
+                                    <i class="fa-regular fa-file"></i>
+                                </span>
+                            <span>Paper</span></a>
+                        <a href="https://www.cse.ust.hk/pg/research/projects/mxj/bdr/"
+                           class="btn btn-outline-dark rounded-pill my-2">
+                            <span class="icon">
+                                    <i class="fa-solid fa-bullhorn"></i>
+                                </span>
+                            <span>Media Coverage</span></a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="thumbnail">
+                        <img src="./static/images/teaser-min.jpg" class="img-fluid img-thumbnail"
+                             alt="ijhcs_20_teaser">
+                        <div class="caption">
+                            <p>We investigate the effect of five representative designs, i.e., (1) <i>raw numbers</i>,
+                                (2) <i>bar charts</i>, (3) <i>waves</i>, (4) <i>butterfly
+                                    drawings</i>, and (5) <i>table lamps</i>on supporting user engagement during a
+                                guided stress management practice. For each design, the upper part provides
+                                guidance view, while the lower part presents the user's real-time biofeedback display.
+                                These
+                                examples demonstrate the same record of one participant at a particular moment, where
+                                the upper
+                                part shows a stressed state while the lower part shows a calm state.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 container" id="abstract">
+            <div class="row">
+                <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-tertiary scmargin">
+                    <div class="px-0">
+                        <h4 class="text-center">Abstract</h4>
+                        <p>
+                            The prevalence of functional and affordable wearable biosensors has led to an increase
+                            in stress
+                            management applications for learning about and improving one's mental health. Previous
+                            research
+                            suggests that different types of graphical interfaces may evoke diverse user experiences
+                            with
+                            biofeedback interpretations and related interventions. In this research, we
+                            systematically
+                            investigate the effect of various biofeedback visual designs on supporting user
+                            engagement
+                            during a
+                            guided stress management practice. Specifically, we hypothesize that certain visual
+                            designs will
+                            affect user engagement and, thus, the training attention and physiological measures, due
+                            to
+                            their
+                            specific design features. Following a series of design studies, we assess five different
+                            styles
+                            of
+                            visual design and, for each style, we identify a suitable representative (i.e.,
+                            <i>raw numbers</i> for the numerical style, <i>bar charts</i> for the analytical style,
+                            <i>waves</i>
+                            for the illustrative style,
+                            <i>butterfly drawings</i> for the artistic style, and <i>table lamps</i> for the ambient
+                            style).
+                            In
+                            a controlled within-subject experiment with 35 participants, we assess these five
+                            designs
+                            through a
+                            biofeedback-assisted stress management practice. We find that, overall, visual
+                            representation of
+                            data increases engagement and, thus, better facilitates stress management training when
+                            compared
+                            to
+                            a numerical display. The analysis through the results suggests that a certain level of
+                            abstraction
+                            in the interpretation of data encoding helps users move away from being judgmental;
+                            whereas
+                            animations and transitions augment the experience of being in the present moment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 container" id="content">
+            <div class="row">
+                <div class="py-5 col-lg-6 col-md-8 mx-auto">
+                    <h4>Research Questions</h4>
+                    <div class="py-4">
+                        <p><strong>RQ1</strong>: How different biofeedback designs will affect user
+                            <strong>engagement</strong>
+                            during a guided stress management practice;</p>
+                        <p><strong>RQ2</strong>: Whether different biofeedback designs will affect users' <strong>attention
+                            allocations</strong> across the personal view versus demonstration view;</p>
+                        <p><strong>RQ3</strong>: Whether different biofeedback designs can affect users' <strong>physiological
+                            measures</strong> when relaxing in a guided stress management setting.</p>
+                    </div>
+                    <hr>
+                    <h4>Design Development Process</h4>
+                    <div class="py-4 thumbnail">
+                        <img src="./static/images/scheme-min.jpg" class="img-fluid img-thumbnail col-md-12"
+                             alt="ijhcs_20_detail">
+                        <div class="caption">
+                            <p>The design development process of the design studies, where the blue boxes are different
+                                research
+                                activities while the green boxes are the output of such activities.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <h4>Design Decisions</h4>
+                    <div class="py-4 thumbnail">
+                        <img src="./static/images/flow-min.jpg" class="img-fluid img-thumbnail col-md-12"
+                             alt="ijhcs_20_detail">
+                        <div class="caption">
+                            <p>The design decisions made during the design process. The leaf nodes represent the final
+                                design
+                                choices made after each criterion.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <h4>Design Details</h4>
+                    <div class="py-4">
+                        <p>We present all five representative designs (the left one is a static image where the upper
+                            part shows a
+                            stressed state while the lower part shows a calm state; the right one is an animated gif
+                            where the lower
+                            part keeps neutral) as below:</p>
+                        <div class="row">
+                            <img src="./static/images/1-min.jpg" class="img-fluid img-thumbnail col-6"
+                                 alt="ijhcs_20_detail">
+                            <img src="./static/images/1-min.gif" class="img-fluid img-thumbnail col-6"
+                                 alt="ijhcs_20_detail">
+                            <div class="caption">
+                                <p><i>Raw numbers</i>
+                                    <small>
+                                        [<a href="https://vimeo.com/398411514">video</a>]
+                                    </small>.
+                                    A numerical display of the raw data without any visual representation
+                                    designs.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <img src="./static/images/2-min.jpg" class="img-fluid img-thumbnail col-6"
+                                 alt="ijhcs_20_detail">
+                            <img src="./static/images/2-min.gif" class="img-fluid img-thumbnail col-6"
+                                 alt="ijhcs_20_detail">
+                            <div class="caption">
+                                <p><i>Bar charts</i>
+                                    <small>
+                                        [<a href="https://vimeo.com/398411467">video</a>]
+                                    </small>.
+                                    The representative shows an overview or summary of raw data with accuracy, or
+                                    statistical details derived from the raw data directly with the reference(s) or
+                                    measurement(s).
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <img src="./static/images/3-min.jpg" class="img-fluid img-thumbnail col-6"
+                                 alt="ijhcs_20_detail">
+                            <img src="./static/images/3-min.gif" class="img-fluid img-thumbnail col-6"
+                                 alt="ijhcs_20_detail">
+                            <div class="caption">
+                                <p><i>Waves</i>
+                                    <small>
+                                        [<a href="https://vimeo.com/398411554">video</a>]
+                                    </small>.
+                                    The representative provides insights into the data, by implementing user-familiar
+                                    visual abstraction or adopting conceptual or abstract design features that reduce
+                                    cognitive
+                                    effort.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <img src="./static/images/4-min.jpg" class="img-fluid img-thumbnail col-6"
+                                 alt="ijhcs_20_detail">
+                            <img src="./static/images/4-min.gif" class="img-fluid img-thumbnail col-6"
+                                 alt="ijhcs_20_detail">
+                            <div class="caption">
+                                <p><i>Butterfly drawings</i>
+                                    <small>
+                                        [<a href="https://vimeo.com/398411496">video</a>]
+                                    </small>.
+                                    The representative emphasizes the aesthetic values that create a rich
+                                    experience. The visual design should build a creative and aesthetically pleasing art
+                                    form as an
+                                    integrated expression of the data, which changes users' mindsets through
+                                    appreciation.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <img src="./static/images/5-min.jpg" class="img-fluid img-thumbnail col-6"
+                                 alt="ijhcs_20_detail">
+                            <img src="./static/images/5-min.gif" class="img-fluid img-thumbnail col-6"
+                                 alt="ijhcs_20_detail">
+                            <div class="caption">
+                                <p><i>Table lamps</i>
+                                    <small>
+                                        [<a href="https://vimeo.com/398411525">video</a>]
+                                    </small>.
+                                    The representative minimizes its attention efforts (e.g., can be perceived by
+                                    peripheral vision) by promoting a multi-sensory and tangible representation with
+                                    physical
+                                    shapes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <h4>Evaluation Methods</h4>
+                    <div class="py-4 thumbnail">
+                        <img src="./static/images/process-min.jpg" class="img-responsive img-thumbnail col-md-12"
+                             alt="ijhcs_20_detail">
+                        <div class="caption">
+                            <p>The lab study protocol. The design conditions are randomly assigned to each trial
+                                according to
+                                the Latin Square sequence.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <h4>Results</h4>
+                    <div class="py-4">
+                        <p>The results of the Friedman's ANOVA test for users' ratings collected through post-study questionnaires.
+                            M<sub>N</sub> represents the mean value for
+                            <i>raw numbers</i>, M<sub>C</sub> for <i>bar charts</i>, M<sub>W</sub> for <i>waves</i>, M<sub>B</sub>
+                            for
+                            <i>butterfly drawings</i>, and M<sub>L</sub> for <i>table lamps</i>. The following table also reports
+                            the degrees of freedom, chi-squared, p-values and Kendall's W values (i.e., the effect size).</p>
+                        <div>
+                            <table class="table table-striped table-sm">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Attributes</th>
+                                    <th scope="col">M<sub>N</sub></th>
+                                    <th scope="col">M<sub>C</sub></th>
+                                    <th scope="col">M<sub>W</sub></th>
+                                    <th scope="col">M<sub>B</sub></th>
+                                    <th scope="col">M<sub>L</sub></th>
+                                    <th scope="col">df</th>
+                                    <th scope="col">X<sup>2</sup></th>
+                                    <th scope="col">p</th>
+                                    <th scope="col">W</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row" class="fw-light">Perceived usability</th>
+                                    <td>3.49</td>
+                                    <td>3.37</td>
+                                    <td>3.69</td>
+                                    <td>3.31</td>
+                                    <td>3.20</td>
+                                    <td>4</td>
+                                    <td>4.34</td>
+                                    <td>4.339</td>
+                                    <td>.03</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="fw-light">Aesthetics</th>
+                                    <td>1.97</td>
+                                    <td>2.69</td>
+                                    <td>3.57</td>
+                                    <td>4.31</td>
+                                    <td>4.17</td>
+                                    <td>4</td>
+                                    <td>86.32</td>
+                                    <td><.001</td>
+                                    <td>.62</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="fw-light">Novelty</th>
+                                    <td>2.49</td>
+                                    <td>2.74</td>
+                                    <td>3.46</td>
+                                    <td>4.20</td>
+                                    <td>4.23</td>
+                                    <td>4</td>
+                                    <td>63.29</td>
+                                    <td><.001</td>
+                                    <td>.45</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="fw-light">Focused attention</th>
+                                    <td>2.80</td>
+                                    <td>3.09</td>
+                                    <td>3.69</td>
+                                    <td>3.86</td>
+                                    <td>3.94</td>
+                                    <td>4</td>
+                                    <td>31.61</td>
+                                    <td><.001</td>
+                                    <td>.23</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="fw-light">Felt involvement</th>
+                                    <td>2.37</td>
+                                    <td>2.77</td>
+                                    <td>3.74</td>
+                                    <td>4.09</td>
+                                    <td>4.17</td>
+                                    <td>4</td>
+                                    <td>61.57</td>
+                                    <td><.001</td>
+                                    <td>.44</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="fw-light">Endurability</th>
+                                    <td>2.71</td>
+                                    <td>3.06</td>
+                                    <td>3.57</td>
+                                    <td>3.57</td>
+                                    <td>3.77</td>
+                                    <td>4</td>
+                                    <td>26.96</td>
+                                    <td><.001</td>
+                                    <td>.19</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
 </div>
 
 
-<section class="hero">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <a href="https://keunhong.com">Keunhong Park</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span>
-            <span class="author-block">
-              <a href="https://jonbarron.info">Jonathan T. Barron</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
-            </span>
-          </div>
-
-          <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>The Hong Kong University of Science and Technology,</span>
-            <span class="author-block"><sup>2</sup>The Chinese University of Hong Kong, Shenzhen</span>
-          </div>
-
-          <div class="column has-text-centered">
-            <div class="publication-links">
-              <!-- PDF Link. -->
-              <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span>Paper</span>
-                </a>
-              </span>
-              <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-              <!-- Video Link. -->
-              <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span>
-              <!-- Code Link. -->
-              <span class="link-block">
-                <a href="https://github.com/google/nerfies"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-github"></i>
-                  </span>
-                  <span>Code</span>
-                  </a>
-              </span>
-              <!-- Dataset Link. -->
-              <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="far fa-images"></i>
-                  </span>
-                  <span>Data</span>
-                  </a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
-      </h2>
+    <div class="container is-max-desktop">
+        <div class="hero-body">
+            <video id="teaser" autoplay muted loop playsinline height="100%">
+                <source src="./static/videos/teaser.mp4"
+                        type="video/mp4">
+            </video>
+            <h2 class="subtitle has-text-centered">
+                <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
+                free-viewpoint
+                portraits.
+            </h2>
+        </div>
     </div>
-  </div>
 </section>
 
 
 <section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="section">
-  <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
-          </p>
-          <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Abstract. -->
-
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <!--/ Paper video. -->
-  </div>
-</section>
-
-
-<section class="section">
-  <div class="container is-max-desktop">
-
-    <div class="columns is-centered">
-
-      <!-- Visual Effects. -->
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
-          <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
-          </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-      <!--/ Visual Effects. -->
-
-      <!-- Matting. -->
-      <div class="column">
-        <h2 class="title is-3">Matting</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
-            </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <!--/ Matting. -->
-
-    <!-- Animation. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
-
-        <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
-        <div class="content has-text-justified">
-          <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
-          </p>
-        </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
+    <div class="hero-body">
+        <div class="container">
+            <div id="results-carousel" class="carousel results-carousel">
+                <div class="item item-steve">
+                    <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                        <source src="./static/videos/steve.mp4"
+                                type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-chair-tp">
+                    <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                        <source src="./static/videos/chair-tp.mp4"
+                                type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-shiba">
+                    <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+                        <source src="./static/videos/shiba.mp4"
+                                type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-fullbody">
+                    <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+                        <source src="./static/videos/fullbody.mp4"
+                                type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-blueshirt">
+                    <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
+                        <source src="./static/videos/blueshirt.mp4"
+                                type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-mask">
+                    <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
+                        <source src="./static/videos/mask.mp4"
+                                type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-coffee">
+                    <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
+                        <source src="./static/videos/coffee.mp4"
+                                type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-toby">
+                    <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                        <source src="./static/videos/toby2.mp4"
+                                type="video/mp4">
+                    </video>
+                </div>
             </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
-          </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
-          </div>
         </div>
-        <br/>
-        <!--/ Interpolating. -->
-
-        <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
-        <div class="content has-text-justified">
-          <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <!--/ Re-rendering. -->
-
-      </div>
     </div>
-    <!--/ Animation. -->
+</section>
 
 
-    <!-- Concurrent Work. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
-          </p>
-          <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
-          </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
+<section class="section">
+    <div class="container is-max-desktop">
+        <!-- Abstract. -->
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Abstract</h2>
+                <div class="content has-text-justified">
+                    <p>
+                        We present the first method capable of photorealistically reconstructing a non-rigidly
+                        deforming scene using photos/videos captured casually from mobile phones.
+                    </p>
+                    <p>
+                        Our approach augments neural radiance fields
+                        (NeRF) by optimizing an
+                        additional continuous volumetric deformation field that warps each observed point into a
+                        canonical 5D NeRF.
+                        We observe that these NeRF-like deformation fields are prone to local minima, and
+                        propose a coarse-to-fine optimization method for coordinate-based models that allows for
+                        more robust optimization.
+                        By adapting principles from geometry processing and physical simulation to NeRF-like
+                        models, we propose an elastic regularization of the deformation field that further
+                        improves robustness.
+                    </p>
+                    <p>
+                        We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
+                        photos/videos into deformable NeRF
+                        models that allow for photorealistic renderings of the subject from arbitrary
+                        viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
+                        using a
+                        rig with two mobile phones that take time-synchronized photos, yielding train/validation
+                        images of the same pose at different viewpoints. We show that our method faithfully
+                        reconstructs non-rigidly deforming scenes and reproduces unseen views with high
+                        fidelity.
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <!--/ Concurrent Work. -->
+        <!--/ Abstract. -->
 
-  </div>
+        <!-- Paper video. -->
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Video</h2>
+                <div class="publication-video">
+                    <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <!--/ Paper video. -->
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container is-max-desktop">
+
+        <div class="columns is-centered">
+
+            <!-- Visual Effects. -->
+            <div class="column">
+                <div class="content">
+                    <h2 class="title is-3">Visual Effects</h2>
+                    <p>
+                        Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
+                        would be impossible without nerfies since it would require going through a wall.
+                    </p>
+                    <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+                        <source src="./static/videos/dollyzoom-stacked.mp4"
+                                type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <!--/ Visual Effects. -->
+
+            <!-- Matting. -->
+            <div class="column">
+                <h2 class="title is-3">Matting</h2>
+                <div class="columns is-centered">
+                    <div class="column content">
+                        <p>
+                            As a byproduct of our method, we can also solve the matting problem by ignoring
+                            samples that fall outside of a bounding box during rendering.
+                        </p>
+                        <video id="matting-video" controls playsinline height="100%">
+                            <source src="./static/videos/matting.mp4"
+                                    type="video/mp4">
+                        </video>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--/ Matting. -->
+
+        <!-- Animation. -->
+        <div class="columns is-centered">
+            <div class="column is-full-width">
+                <h2 class="title is-3">Animation</h2>
+
+                <!-- Interpolating. -->
+                <h3 class="title is-4">Interpolating states</h3>
+                <div class="content has-text-justified">
+                    <p>
+                        We can also animate the scene by interpolating the deformation latent codes of two input
+                        frames. Use the slider here to linearly interpolate between the left frame and the right
+                        frame.
+                    </p>
+                </div>
+                <div class="columns is-vcentered interpolation-panel">
+                    <div class="column is-3 has-text-centered">
+                        <img src="./static/images/interpolate_start.jpg"
+                             class="interpolation-image"
+                             alt="Interpolate start reference image."/>
+                        <p>Start Frame</p>
+                    </div>
+                    <div class="column interpolation-video-column">
+                        <div id="interpolation-image-wrapper">
+                            Loading...
+                        </div>
+                        <input class="slider is-fullwidth is-large is-info"
+                               id="interpolation-slider"
+                               step="1" min="0" max="100" value="0" type="range">
+                    </div>
+                    <div class="column is-3 has-text-centered">
+                        <img src="./static/images/interpolate_end.jpg"
+                             class="interpolation-image"
+                             alt="Interpolation end reference image."/>
+                        <p class="is-bold">End Frame</p>
+                    </div>
+                </div>
+                <br/>
+                <!--/ Interpolating. -->
+
+                <!-- Re-rendering. -->
+                <h3 class="title is-4">Re-rendering the input video</h3>
+                <div class="content has-text-justified">
+                    <p>
+                        Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
+                        viewpoint such as a stabilized camera by playing back the training deformations.
+                    </p>
+                </div>
+                <div class="content has-text-centered">
+                    <video id="replay-video"
+                           controls
+                           muted
+                           preload
+                           playsinline
+                           width="75%">
+                        <source src="./static/videos/replay.mp4"
+                                type="video/mp4">
+                    </video>
+                </div>
+                <!--/ Re-rendering. -->
+
+            </div>
+        </div>
+        <!--/ Animation. -->
+
+
+        <!-- Concurrent Work. -->
+        <div class="columns is-centered">
+            <div class="column is-full-width">
+                <h2 class="title is-3">Related Links</h2>
+
+                <div class="content has-text-justified">
+                    <p>
+                        There's a lot of excellent work that was introduced around the same time as ours.
+                    </p>
+                    <p>
+                        <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a>
+                        introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
+                    </p>
+                    <p>
+                        <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a
+                            href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
+                        both use deformation fields to model non-rigid scenes.
+                    </p>
+                    <p>
+                        Some works model videos with a NeRF by directly modulating the density, such as <a
+                            href="https://video-nerf.github.io/">Video-NeRF</a>, <a
+                            href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a
+                            href="https://neural-3d-video.github.io/">DyNeRF</a>
+                    </p>
+                    <p>
+                        There are probably many more by the time you are reading this. Check out <a
+                            href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>,
+                        and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF
+                        papers</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--/ Concurrent Work. -->
+
+    </div>
 </section>
 
 
 <section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
+    <div class="container is-max-desktop content">
+        <h2 class="title">BibTeX</h2>
+        <pre><code>@article{park2021nerfies,
   author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
   title     = {Nerfies: Deformable Neural Radiance Fields},
   journal   = {ICCV},
   year      = {2021},
 }</code></pre>
-  </div>
+    </div>
 </section>
 
 
 <footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered">
-      <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
-        <i class="fas fa-file-pdf"></i>
-      </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <p>
-            This website is licensed under a <a rel="license"
-                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-          <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
-          </p>
+    <div class="container">
+        <div class="content has-text-centered">
+            <a class="icon-link"
+               href="./static/videos/nerfies_paper.pdf">
+                <i class="fas fa-file-pdf"></i>
+            </a>
+            <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+                <i class="fab fa-github"></i>
+            </a>
         </div>
-      </div>
+        <div class="columns is-centered">
+            <div class="column is-8">
+                <div class="content">
+                    <p>
+                        This website is licensed under a <a rel="license"
+                                                            href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                        Commons Attribution-ShareAlike 4.0 International License</a>.
+                    </p>
+                    <p>
+                        This means you are free to borrow the <a
+                            href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+                        we just ask that you link back to this page in the footer.
+                        Please remember to remove the analytics code included in the header of the website which
+                        you do not want on your website.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </footer>
 
 </body>
