@@ -1,15 +1,21 @@
 # Nerfies
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository of [Fostering engagement in technology-mediated stress management: A comparative study of biofeedback designs](https://sunzhida.github.io/biodesign/).
 
-If you find Nerfies useful for your work please cite:
+If you find this work useful please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
-}
+@article{sun2020fostering,
+    title = {Fostering engagement in technology-mediated stress management: A comparative study of biofeedback designs},
+    journal = {International Journal of Human-Computer Studies},
+    volume = {140},
+    pages = {102430},
+    year = {2020},
+    issn = {1071-5819},
+    doi = {https://doi.org/10.1016/j.ijhcs.2020.102430},
+    url = {https://www.sciencedirect.com/science/article/pii/S1071581920300343},
+    author = {Zhida Sun and Manuele Reani and Quan Li and Xiaojuan Ma},
+    keywords = {Design, Engagement, Stress, Biofeedback}
+    }
 ```
 
 # Website License
