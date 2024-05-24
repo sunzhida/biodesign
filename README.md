@@ -1,4 +1,4 @@
-# Nerfies
+# Introduction
 
 This is the repository of [Fostering engagement in technology-mediated stress management: A comparative study of biofeedback designs](https://sunzhida.github.io/biodesign/).
 
